@@ -95,8 +95,8 @@ class BinaryHeap{
     { 
         // Base case for Empty Heap
         if(cSize<=0){
-        	cout<<INT_MIN<<endl;
-        	return 0;
+        	//cout<<INT_MIN<<endl;
+        	return INT_MIN;
 		}
         // Base case for Heap with 1 value.
 		if(cSize==1){
